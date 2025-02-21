@@ -28,7 +28,7 @@ public class SpringDataRestConfig
 
         cors.addMapping("/**")
 
-                .allowedOrigins("http://localhost:5176")
+                .allowedOrigins("*")
 
                 .allowedMethods("*");
 
